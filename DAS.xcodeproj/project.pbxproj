@@ -12,6 +12,7 @@
 		5EA0B6C01E2F9BE600B895F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA0B6BE1E2F9BE600B895F6 /* Main.storyboard */; };
 		5EA0B6C21E2F9BE600B895F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EA0B6C11E2F9BE600B895F6 /* Assets.xcassets */; };
 		5EA0B6C51E2F9BE600B895F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA0B6C31E2F9BE600B895F6 /* LaunchScreen.storyboard */; };
+		5EB584F91E2FB109002CD8D2 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EB584F81E2FB109002CD8D2 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5EA0B6C11E2F9BE600B895F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EA0B6C41E2F9BE600B895F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5EA0B6C61E2F9BE600B895F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EB584F81E2FB109002CD8D2 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		5EA0B6B91E2F9BE600B895F6 /* DAS */ = {
 			isa = PBXGroup;
 			children = (
+				5EB584F81E2FB109002CD8D2 /* SettingsViewController.swift */,
 				5EA0B6BA1E2F9BE600B895F6 /* AppDelegate.swift */,
 				5EA0B6BC1E2F9BE600B895F6 /* ViewController.swift */,
 				5EA0B6BE1E2F9BE600B895F6 /* Main.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				5EA0B6BD1E2F9BE600B895F6 /* ViewController.swift in Sources */,
 				5EA0B6BB1E2F9BE600B895F6 /* AppDelegate.swift in Sources */,
+				5EB584F91E2FB109002CD8D2 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +303,7 @@
 				5EA0B6CB1E2F9BE600B895F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
