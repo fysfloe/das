@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AudioKit
 
 class ViewController: UIViewController {
     
@@ -38,6 +39,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let oscillator = AKOscillator()
+        oscillator.amplitude = 0.1
+        AudioKit.output = oscillator
+        
+        AudioKit.start()
+        oscillator.start()
+        
     }
     
     override func didReceiveMemoryWarning() {
