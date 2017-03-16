@@ -4,7 +4,7 @@
 //
 //  Created by Florian Csizmazia on 18/01/2017.
 //  Copyright © 2017 Florian Csizmazia. All rights reserved.
-//  Test Feature Branch
+//
 
 import UIKit
 import AudioKit
